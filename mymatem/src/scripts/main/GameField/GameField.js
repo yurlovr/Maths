@@ -173,7 +173,7 @@ class GameField extends Component {
                 </p>
                 <p className="m">Правильно: <span
                   className="text-answer_true">&ensp;&ensp; {this.state.goodAnswer}</span></p>
-                <p className="m">Неправильно:
+                <p className="m">Неправильно:&ensp;
                   <span className="text-answer_wrong"> {this.state.wrongAnswer}</span></p>
               </section>
               <ButtonListAnswer goodAnswer={this.number.c} arrayAnswer={arrayAnswer}

@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import classNames from "classnames/bind";
+import sound from "../../../sound/Sound_05952.mp3"
 
 class ButtonAnswer extends Component {
   constructor(props) {
@@ -17,7 +18,7 @@ class ButtonAnswer extends Component {
             "button-answer_false": this.props.isWrongAnswer
           },
           "button-answer",)}
-                onClick={() => this.props.onClickButton(this.props.value, this.props.id)}
+                onClick={() => {new Audio(sound).play(); this.props.onClickButton(this.props.value, this.props.id)}}
                 id={this.props.id}>
           {this.props.value}
         </button>
