@@ -36,7 +36,7 @@ class GameField extends Component {
       });
     } else {
       this.setState({
-          newTask: this.state.newTask + 1,
+          newTask: +this.state.newTask + 1,
           wrongAnswer: this.state.wrongAnswer + 1,
         }
       )
