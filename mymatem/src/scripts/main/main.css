@@ -1,7 +1,182 @@
+
+.body {
+    background-color: mediumspringgreen;
+}
+
 ul {
     list-style: none;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
 }
 
 .mainHeader {
     text-align: center;
 }
+
+.main-field {
+    min-height: 400px;
+}
+
+.mar-bot-small {
+    margin-bottom: 20px;
+}
+.p10 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.pad-bot-small {
+    padding-bottom: 20px;
+}
+
+.m{
+    margin: 0;
+}
+.mb40 {
+    margin-bottom: 40px;
+}
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+.p {
+    padding: 0;
+}
+
+.pt10 {
+    padding-top: 10px;
+}
+
+.p-l-r {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.button-main {
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    border: 1px solid buttonface;
+    border-radius: 10px;
+
+    font-size: 20px;
+    font-weight: 700;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.button-main:hover,
+.button-main:focus {
+    background-color: aqua;
+    outline: none;
+}
+
+.button-main:active {
+    border: 1px solid gray;
+}
+
+.main-menu-list {
+    display: flex;
+    justify-content: center;
+
+}
+
+.main-menu-list_button {
+    width: 200px;
+    margin: 0 auto;
+    flex-wrap:wrap;
+}
+
+.task {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+    width: 320px;
+    margin: 0 auto;
+}
+
+.answer-block {
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.button-answer {
+    width: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+
+    border: 2px solid buttonface;
+    border-radius: 10px;
+
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.button-answer_true {
+    background-color: lime;
+    border: 2px solid #ffffff;
+}
+
+.button-answer_false {
+    background-color: red;
+    border: 2px solid #ffffff;
+}
+
+.button-answer_simple:hover {
+background-color: aqua;
+outline: none;
+}
+.button-answer:focus {
+outline: none;
+}
+
+
+.text-answer {
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+}
+
+.text-answer_true {
+    color: #0c2092;
+}
+
+.text-answer_wrong {
+    color: red;
+}
+
+.mb50 {
+    margin-bottom: 50px;
+}
+
+.mt50 {
+    margin-top: 50px;
+}
+.mb20 {
+    margin-bottom: 20px;
+}
+
+
+
+
